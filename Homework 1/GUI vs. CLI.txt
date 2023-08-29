@@ -1,0 +1,7 @@
+	GUI(Graphical User Interface) refers to the way your computer organizes files, folders, etc, for easy everyday access.
+The file explorer for windows or the finder (I think this is right) on Mac are examples of GUI. They organize files on our computers in an easy to 
+use format that virtually anyone could use. 
+
+	CLI(Command Line Interface) on the other hand, is a bit more complicated. The CLI refers to a way of organizing files, folders, etc. just like the 
+GUI, but it isn't nearly as visual and relies on text prompts(commands) that allow you to access and search for files or folders very quickly though
+the visual element isn't present. The CLI allows you to quickly access everything on your computer if you know how to use it. 
