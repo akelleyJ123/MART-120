@@ -1,0 +1,23 @@
+.whiteText{
+	color:white;
+font-size:40;
+background-color: rgb(0, 0, 0);
+}
+
+.buttonColor{
+	color: white;
+	font-size: medium;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: blue;
+}
+
+.paragraphColors{
+	color:black;
+	background-color: goldenrod;
+}
+
+#headingColor{
+	color: black;
+	background-color:gold;
+}
+
