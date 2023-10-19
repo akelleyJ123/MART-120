@@ -1,0 +1,61 @@
+<html>
+	
+	<head>
+		<script>
+				
+			function checkBoxes(){
+				var firstName = document.getElementById("fName").value;
+				var lastName = document.getElementById("lName").value;
+				var emailCheck = document.getElementById("email").value;
+				var termsAccept = document.getElementById("Accept").checked;
+				var termsDecline = document.getElementById("decline").checked;
+				var formComplete 
+				if (firstName == ""){
+					document.getElementById("fName").style.backgroundColor = "LightCoral";
+					document.getElementById("fName").focus();
+				}
+				if (lastName == ""){
+					document.getElementById("lName").style.backgroundColor = "LightCoral";
+					document.getElementById("lName").focus();
+				}
+				if (emailCheck == ""){
+					document.getElementById("email").style.backgroundColor = "LightCoral";
+					document.getElementById("email").focus();
+				}
+				else{
+					document.getElementById("fName").style.backgroundColor = "white";
+					document.getElementById("lName").style.backgroundColor = "white";
+					document.getElementById("email").style.backgroundColor = "white";
+				}
+				if (termsDecline == true){
+					window.alert("You must accept terms and conditions to continue");
+				}
+				if (termsAccept == true){
+					formComplete = true;
+				}
+				if (formComplete == true){
+					window.confirm("The form has been submitted");
+				}
+			}
+		</script>
+		<title>Page 3</title>
+		<link rel="stylesheet" type="text/css" href="CSS.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+	</head>
+	<body>
+		<h1><span class="whiteText">Contact Us!</span></h1>
+		<form action="page3.html" type="post">
+			First Name: <input type="text" id="fName"><br><br>
+			Last Name: <input type="text" id="lName"><br><br>
+			Email: <input type="text" id="email"><br><br>
+			<p1>Do you accept our</p1> <a href="terms.html">terms and conditions</a><p1>?</p1><br>
+			<input type="radio" name="yesOrNo" value="yes" id="Accept">Yes<br>
+			<input type="radio" name="yesOrNo" value="no" id="decline">No<br><br>
+			<button class="buttonColor" type="button" onclick="checkBoxes();" id="submit">Submit</button>
+		</form>
+		<p1><a href="page1.html">Page 1</a></p1><p1><a href="page2.html">Page 2</a></p1>
+	</body>
+</html>
+
+		
