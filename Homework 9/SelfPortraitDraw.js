@@ -1,7 +1,13 @@
+var x = 100;
+var y = 100;
 function setup() {
     createCanvas(500,600);
 }
 function draw() {
+    text("X: " + mouseX,100,200 );
+
+    text("Y: " + mouseY,100,220 );
+    
     background(14,94,27);
 
     strokeWeight(1);
